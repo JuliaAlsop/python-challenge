@@ -3,7 +3,7 @@ import numpy as np
 import csv
 
 #Path for file 
-pybank_csv = os.path.join("..", "Resources", "budget_data.csv") #or just put: "budget_data.csv" in ()
+pybank_csv = os.path.join("PyBank", "Resources", "budget_data.csv") #or just put: "budget_data.csv" in ()
 
 #Open the CSV
 csvreader = csv.reader(pybank_csv, delimiter=",")
